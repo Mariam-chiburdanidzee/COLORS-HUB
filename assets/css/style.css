@@ -1,0 +1,586 @@
+@font-face {
+    font-family: 'Rufina', serif;
+    src: url(../fonts/Rufina-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Red Rose', cursive;
+    src: url(../fonts/RedRose-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Red Rose', cursive;
+    src: url(../fonts/RedRose-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url(../fonts/RedHatDisplay-SemiBold.ttf);
+}
+
+body {
+    background-color: #f5f5f5;
+
+}
+
+.container {
+    max-width: 1304px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+.input-wrapper {
+    display: flex;
+}
+
+.header-wrapper a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-item a {
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+}
+
+.header-home li {
+    font-size: 14px;
+    line-height: 17.49px;
+    font-family: 'Red Rose', cursive;
+}
+
+.hover-a:hover {
+    text-decoration: underline;
+}
+
+.explore-a,
+.contact-a {
+    cursor: pointer;
+}
+
+.search {
+    border-bottom: 1px solid #4B4B4B;
+    width: 336px;
+    height: 41px;
+    border-radius: 4px;
+}
+
+.main-box-title ul {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.main-box-title li {
+    line-height: 21px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main-box-title button {
+    width: 83px;
+    height: 34px;
+    border-radius: 10px;
+    border: 0.5px solid #EAEAEA;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.main-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 64px;
+    row-gap: 86px;
+    justify-items: center;
+}
+
+
+.color-content {
+    display: flex;
+    gap: 209px;
+}
+
+.color-content span {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.color-card p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: rgba(217, 217, 217, 0.5);
+    text-align: center;
+}
+
+
+.code {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 4px;
+    width: 67px;
+    height: 20px;
+}
+
+.numbers {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+    width: 86px;
+    height: 20px;
+}
+
+.color-hub div {
+    Width: 260px;
+    Height: 50px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    filter: drop-shadow(0 0 0.2rem);
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.code-div:hover p {
+    opacity: 1;
+
+}
+
+.color-item-footer {
+    Width: 260px;
+    Height: 50px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+}
+
+.images {
+    display: flex;
+    padding-top: 14px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.img-download {
+    padding-left: 146px;
+}
+
+.color-item-first {
+    background: #CDF0EA;
+    border-color: #CDF0EA;
+}
+
+.color-item-second {
+    background: #F9F9F9;
+}
+
+.color-item-third {
+    background-color: #F6C6EA;
+}
+
+.color-item-fourth {
+    background-color: #FAF4B7;
+}
+
+.color-item-6th {
+    background-color: #D4ECDD;
+}
+
+.color-item-7th {
+    background-color: #345B63;
+}
+
+.color-item-8th {
+    background: #152D35;
+}
+
+.color-item-9th {
+    background: #112031;
+}
+
+.color-item-10th {
+    background: #F9F3DF;
+}
+
+.color-item-11th {
+    background: #CDF2CA;
+}
+
+.color-item-12th {
+    background: #FFDEFA;
+}
+
+.color-item-12th {
+    background: #FFDEFA;
+}
+
+.color-item-13th {
+    background: #FFC898;
+}
+
+.color-item-14th {
+    background: #3330E4;
+}
+
+.color-item-15th {
+    background: #F637EC;
+}
+
+.color-item-16th {
+    background: #FBB454;
+}
+
+.color-item-17th {
+    background: #FAEA48;
+}
+
+.color-item-18th {
+    background: #D9D7F1;
+}
+
+.color-item-19th {
+    background: #FFFDDE;
+}
+
+.color-item-20th {
+    background: #E7FBBE;
+}
+
+.color-item-21th {
+    background: #FFCBCB;
+}
+
+.color-item-22th {
+    background: #990000;
+}
+
+.color-item-23th {
+    background: #FF5B00;
+}
+
+.color-item-24th {
+    background: #D4D925;
+}
+
+.color-item-25th {
+    background: #FFEE63;
+}
+
+.color-item-26th {
+    background: #B91646;
+}
+
+.color-item-27th {
+    background: #DFD8CA;
+}
+
+.color-item-28th {
+    background: #FBF3E4;
+}
+
+.color-item-29th {
+    background: #105652;
+}
+
+.color-item-30th {
+    background: #CDF0EA;
+}
+
+.color-item-31st {
+    background: #F9F9F9;
+}
+
+.color-item-32th {
+    background: #F6C6EA;
+}
+
+.color-item-33th {
+    background: #FAF4B7;
+}
+
+.color-item-34th {
+    background: #FFCC1D;
+}
+
+.color-item-35th {
+    background: #0B4619;
+}
+
+.color-item-36th {
+    background: #116530;
+}
+
+.color-item-37th {
+    background: #E8E8CC;
+}
+
+.color-item-38th {
+    background: #00FFAB;
+}
+
+.color-item-39th {
+    background: #14C38E;
+}
+
+.color-item-40th {
+    background: #B8F1B0;
+}
+
+.color-item-41st {
+    background: #E3FCBF;
+}
+
+.color-item-42th {
+    background: #49FF00;
+}
+
+.color-item-43th {
+    background: #FBFF00;
+}
+
+.color-item-44th {
+    background: #FF9300;
+}
+
+.color-item-45th {
+    background: #FF9300;
+}
+
+.color-item-46th {
+    background: #06283D;
+}
+
+.color-item-47th {
+    background: #1363DF;
+}
+
+.color-item-48th {
+    background: #47B5FF;
+}
+
+.color-item-49th {
+    background: #DFF6FF;
+}
+
+.banner-box img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.banner-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.banner-box:hover img {
+    filter: blur(10px);
+}
+
+.banner-text {
+    position: absolute;
+}
+
+.banner-text h1 {
+    font-size: 40px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.collection-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 63px;
+    row-gap: 63px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.collection-card {
+    margin-top: 40px;
+    width: 348px;
+    height: 314px;
+}
+.collection-card img:hover{
+    filter: drop-shadow(0 0 0.5rem);
+    cursor: pointer;
+}
+.card-circle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.card-circle div {
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+}
+
+.collection-card p {
+    font-size: 10px;
+    line-height: 13px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    color: #5A5A5A;
+    text-align: center;
+    padding-top: 60px;
+    filter: drop-shadow(0 0 0.75rem );
+    cursor: pointer;
+}
+
+
+.circle-color-1st {
+    background: #D12529;
+}
+
+.circle-color-2nd {
+    background: #394430;
+}
+
+.circle-color-3rd {
+    background: #FC739F;
+}
+
+.circle-color-4th {
+    background: #FA9F4A;
+}
+
+.circle-color-5th {
+    background: #A13583;
+}
+
+.circle-color-6th {
+    background: #FF8601;
+}
+
+.circle-color-7th {
+    background: #F2EAE7;
+}
+
+.circle-color-8th {
+    background: #430001;
+}
+
+.circle-color-9th {
+    background: #15100F;
+}
+
+.circle-color-10th {
+    background: #E59222;
+}
+
+.circle-color-11th {
+    background: #7F73B5;
+}
+
+.circle-color-12th {
+    background: #E2DFE6;
+}
+
+.circle-color-13th {
+    background: #534090;
+}
+
+.circle-color-14th {
+    background: #0E44A7;
+}
+
+.circle-color-15th {
+    background: #050408;
+}
+
+.circle-color-16th {
+    background: #F6F6F8;
+}
+
+.circle-color-17th {
+    background: #FDCF05;
+}
+
+.circle-color-18th {
+    background: #49403E;
+}
+
+.circle-color-19th {
+    background: #E6D9C9;
+}
+
+.circle-color-20th {
+    background: #F9E822;
+}
+
+.circle-color-21th {
+    background: #007CC2;
+}
+
+.circle-color-22th {
+    background: #01A0D9;
+}
+
+.circle-color-23th {
+    background: #DE9E00;
+}
+
+.circle-color-24th {
+    background: #CDDD97;
+}
+
+.circle-color-25th {
+    background: #DFD046;
+}
+
+.circle-color-26th {
+    background: #F5BCCF;
+}
+
+.circle-color-27th {
+    background: #E1D953;
+}
+
+.circle-color-28th {
+    background: #D09231;
+}
+
+.circle-color-29th {
+    background: #563E43;
+}
+
+.circle-color-30th {
+    background: #A9C12A;
+}
